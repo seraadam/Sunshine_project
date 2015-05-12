@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sunshine</string>
+    <string name="hello_world">today,June 24</string>
+    <string name="deg">21</string>
+    <string name="list_item_forecast_textview">Today - Sunny - 88/63</string>
+    <string name="action_settings">Settings</string>
+    <string name="refresh_button">Refresh</string>
+    <string name="title_activity_detail">DetailActivity</string>
+</resources>
