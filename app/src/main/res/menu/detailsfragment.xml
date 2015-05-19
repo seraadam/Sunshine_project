@@ -3,9 +3,9 @@
     xmlns:Sunshine="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/menu_item_share"
-        Sunshine:showAsAction="always"
+        android:id="@+id/action_share"
         android:title="Share"
+        Sunshine:showAsAction="always"
         Sunshine:actionProviderClass=
             "android.support.v7.widget.ShareActionProvider" />
 </menu>
