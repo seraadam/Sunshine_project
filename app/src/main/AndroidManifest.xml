@@ -36,6 +36,19 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.shape.in.sunshine.MainActivity" />
     </activity>
-    </application>
 
+        <provider
+            android:authorities="com.shape.in.sunshine.app"
+            android:name=".data.WeatherProvider"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="com.shape.in.sunshine.LICENSE_TO_KILL"
+            />
+
+    </application>
+<permission android:name="com.shape.in.sunshine.LICENSE_TO_KILL"
+    android:protectionLevel="dangerous"
+    android:label="Licenced to kill">
+
+</permission>
 </manifest>
